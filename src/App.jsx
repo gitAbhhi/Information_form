@@ -1,9 +1,15 @@
 import React from 'react'
+import InfoPage from './Pages/InfoPage'
+import Navbar from './Component/Navbar'
 
 const App = () => {
   return (
     <>
-      <h1 className='text-3xl bg-amber-500'>Information Form</h1>
+    <div className='bg-gray-800' >
+
+    <Navbar/>
+      <InfoPage/>
+    </div>
     </>
   )
 }
